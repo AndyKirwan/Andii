@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andii – Connecting Academia, Advancing Research</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #1E3A8A;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #1E3A8A;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .cta {
+            background-color: #00C2FF;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background-color: #008FCC;
+        }
+        .features {
+            margin-top: 30px;
+        }
+        .feature {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .waitlist {
+            margin-top: 30px;
+        }
+        input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #1E3A8A;
+            border-radius: 5px;
+            width: 80%;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background: #1E3A8A;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #142B5E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Andii – Connecting Academia, Advancing Research</h1>
+        <p>Discover research collaborations, secure funding, and showcase your impact beyond citations.</p>
+        <a href="#" class="cta">Join the Waitlist</a>
+
+        <div class="features">
+            <h2>Why Andii?</h2>
+            <p class="feature">🔹 AI-powered collaboration matching</p>
+            <p class="feature">🔹 Personalized funding discovery</p>
+            <p class="feature">🔹 Research impact tracking</p>
+        </div>
+
+        <div class="waitlist">
+            <h2>Be the first to access Andii!</h2>
+            <input type="email" placeholder="Enter your email">
+            <button>Sign Up</button>
+        </div>
+    </div>
+</bod
